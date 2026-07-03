@@ -1,0 +1,299 @@
+import React from "react";
+
+function CreateTicket() {
+  return (
+    <div className="container">
+      <div className="row p-5 mt-5 mb-5">
+
+        <h1 className="fs-2 mb-4">
+          To create a ticket, select a relevant topic
+        </h1>
+
+        {/* COLUMN 1 */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+          </h4>
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Online Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Offline Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Company, Partnership and HUF Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            NRI Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Charges at Zerodha
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Zerodha IDFC FIRST Bank 3-in-1 Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Getting Started
+          </a>
+          <br />
+        </div>
+
+        {/* COLUMN 2 */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+          </h4>
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Online Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Offline Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Company, Partnership and HUF Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            NRI Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Charges at Zerodha
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Zerodha IDFC FIRST Bank 3-in-1 Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Getting Started
+          </a>
+          <br />
+        </div>
+
+        {/* COLUMN 3 */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+          </h4>
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Online Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Offline Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Company, Partnership and HUF Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            NRI Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Charges at Zerodha
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Zerodha IDFC FIRST Bank 3-in-1 Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Getting Started
+          </a>
+          <br />
+        </div>
+
+        {/* COLUMN 4 */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+          </h4>
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Online Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Offline Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Company, Partnership and HUF Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            NRI Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Charges at Zerodha
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Zerodha IDFC FIRST Bank 3-in-1 Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Getting Started
+          </a>
+          <br />
+        </div>
+
+        {/* COLUMN 5 */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+          </h4>
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Online Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Offline Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Company, Partnership and HUF Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            NRI Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Charges at Zerodha
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Zerodha IDFC FIRST Bank 3-in-1 Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Getting Started
+          </a>
+          <br />
+        </div>
+
+        {/* COLUMN 6 */}
+        <div className="col-4 p-5 mt-2 mb-2">
+          <h4>
+            <i className="fa fa-plus-circle" aria-hidden="true"></i> Account Opening
+          </h4>
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Online Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Offline Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Company, Partnership and HUF Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            NRI Account Opening
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Charges at Zerodha
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Zerodha IDFC FIRST Bank 3-in-1 Account
+          </a>
+          <br />
+
+          <a href="/" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none", lineHeight: "2.5", color: "#387ed1" }}>
+            Getting Started
+          </a>
+          <br />
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+export default CreateTicket;
